@@ -8,11 +8,11 @@ A small collection of my favorite agent skills.
 
 ## Install
 
-Clone this repo, then copy the `conversational` folder into your agent's skills directory:
-
 ```sh
-git clone https://github.com/jakehulberg/skills.git
+npx skills add jakehulberg/skills --skill conversational
 ```
+
+Choose your agent when prompted. Add `-g` to install across projects.
 
 Invoke the installed `conversational` skill with the topic you want to discuss.
 
